@@ -7,7 +7,7 @@ n=0
 #I was able to access your file-Todd
 
 #sum total values
-for num in sys.stdin:
+for num in open('data.txt'):
   sum += float(num)
   n += 1
 

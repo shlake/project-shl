@@ -7,7 +7,7 @@ n=0
 #I was able to access your file-Todd
 
 #sum total values
-for num in open('data.txt'):
+for num in open('data2.txt'):
   sum += float(num)
   n += 1
 
